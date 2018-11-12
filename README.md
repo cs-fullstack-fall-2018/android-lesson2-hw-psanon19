@@ -1,4 +1,4 @@
-# android_lesson3_hw
+# android_lesson2_hw
 
 Answer these questions. Edit this README to enter your answer.
 
@@ -43,29 +43,3 @@ Which of the following techniques is more efficient to use within this handler t
 
 1) Use findViewById to find the Count Button. Assign the result to a View variable, and then use ```setBackgroundColor()```.
 2) Use the view parameter that is passed to the click handler with ```setBackgroundColor(): view.setBackgroundColor()```
-
-### Question 5
-
-How many views can you use within a ScrollView? Choose one:
-
-1) One view only
-2) One view or one view group
-3) As many as you need
-
-
-### Question 6
-
-Which XML attribute do you use in a LinearLayout to show views side by side? Choose one:
-
-1) android:orientation="horizontal"
-2) android:orientation="vertical"
-3) android:layout_width="wrap_content"
-
-
-### Question 7
-
-Which XML attribute do you use to define the width of the LinearLayout inside the scrolling view? Choose one:
-
-1) android:layout_width="wrap_content"
-2) android:layout_width="match_parent"
-3) android:layout_width="200dp"
