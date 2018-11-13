@@ -13,6 +13,7 @@ Which two layout constraint attributes on the Zero Button position it vertically
 4) app:layout_constraintTop_toBottomOf="@+id/button_toast"
 5) android:layout_marginTop="8dp"
 
+Answer: 2 and 4
 
 ### Question 2
 
@@ -23,6 +24,7 @@ Which layout constraint attribute on the Zero Button positions it horizontally i
 3) android:layout_marginBottom="8dp"
 4) app:layout_constraintTop_toBottomOf="@+id/button_toast"
 
+Answer: 1
 
 ### Question 3
 
@@ -33,6 +35,7 @@ What is the correct signature for a method used with the android:onClick XML att
 3) private void callMethod(View view)
 4) public boolean callMethod(View view)
 
+Answer: 2
 
 ### Question 4
 The click handler for the Count Button starts with the following method signature:
@@ -43,3 +46,6 @@ Which of the following techniques is more efficient to use within this handler t
 
 1) Use findViewById to find the Count Button. Assign the result to a View variable, and then use ```setBackgroundColor()```.
 2) Use the view parameter that is passed to the click handler with ```setBackgroundColor(): view.setBackgroundColor()```
+
+
+Answer: 1
